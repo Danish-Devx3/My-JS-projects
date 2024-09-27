@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{
+  
+background: url("https://images.unsplash.com/photo-1490682143684-14369e18dce8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+object-fit: cover;
+text-align: center;
+
+box-size: cover;
+}
+#clock{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10vw;
+
+}
+
+.box{
+    background-color: #bbc71865;
+    font-size: 35px;
+    text-align: center;
+    height: fit-content;
+    padding: 45px;
+   
+}
+
+h1{
+    font-family: "Staatliches", sans-serif;
+
+    text-transform: uppercase;
+    padding-top: 100px;
+    color: aliceblue;
+    letter-spacing: 4px;
+    
+}
+
+span{
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(36, 65, 90);
+    text-transform: capitalize;
+
+}
+h2{
+    color: floralwhite;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5), 0 0 1em rgb(255, 251, 0), 0 0 0.2em rgb(0, 0, 0);
+  
+}

@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(37, 73, 105);
+}
+
+.card {
+    height: 70vh;
+    width: 25vw;
+    background: linear-gradient(54deg, rgba(0, 143, 194, 1) 1%, rgba(232, 48, 190, 1) 100%);
+    border-radius: 10px;
+}
+
+.search {
+    display: flex;
+    gap: 12px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.searchImg img {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input{
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weather{
+    text-align: center;
+    margin-top: 150px;
+}
+.temp{
+    font-size: 100px;
+    margin: 0;
+}
+
+.cityName{
+    margin: 0;
+}
